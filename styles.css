@@ -164,4 +164,6 @@ footer .legal{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.12);paddin
 @media (max-width:900px){.contact-grid{grid-template-columns:1fr}}
 
 :root{--navy:#0b2a2f;--navy-2:#11444b;--blue:#0f8a8f;--blue-d:#0b6d71;--aqua:#4fd1c5;--sky:#e8f6f5;--sky-2:#cdeceb;--line:#d6e8e7}
+.hero-bg{filter:blur(14px) saturate(1.15);transform:scale(1.12);background-position:center 40%}
+.hero::after{background:linear-gradient(100deg,rgba(11,42,47,.93) 0%,rgba(11,42,47,.82) 50%,rgba(11,42,47,.6) 100%)}
 .mono{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;background:var(--blue);color:#fff;font:700 17px Sora,sans-serif;flex:none}
